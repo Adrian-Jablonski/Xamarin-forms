@@ -3,13 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.GridPage"
              Padding="0, 20, 0, 0">
-    <Grid BackgroundColor="Yellow"
+    <!--<Grid BackgroundColor="Yellow"
           RowSpacing="40"
           ColumnSpacing="40">
         <Grid.RowDefinitions>
             <RowDefinition Height="100"></RowDefinition>
-            <RowDefinition Height="2*"></RowDefinition> <!--2* will make row 2 height twice as long as row 3-->
-            <RowDefinition Height="*"></RowDefinition>  <!--* makes row height proportional-->
+            <RowDefinition Height="2*"></RowDefinition> 2* will make row 2 height twice as long as row 3
+            <RowDefinition Height="*"></RowDefinition>  * makes row height proportional
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"></ColumnDefinition>
@@ -22,5 +22,5 @@
         <Label Grid.Row="1" Grid.Column="1" Text="Label 4" BackgroundColor="Silver"></Label>
         <Label Grid.Row="2" Grid.ColumnSpan="3" Text="ColumnSpan" BackgroundColor="Silver"></Label>
         <Label Grid.Column="2" Grid.RowSpan="3" Text="RowSpan" BackgroundColor="Silver"></Label>
-    </Grid>
+    </Grid>-->
 </ContentPage>

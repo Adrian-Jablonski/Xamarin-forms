@@ -12,16 +12,38 @@ namespace HelloWorld
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class GridPage : ContentPage
 	{
-		public GridPage ()
-		{
-			InitializeComponent ();
+        public GridPage()
+        {
+            InitializeComponent();
 
-            var grid = new Grid
-            {
-                RowSpacing = 20,
-                ColumnSpacing = 40
-            };
-            grid.Children.Add(new Label { Text = "Label 1" }, 0, 0);    // Label, row, column
-		}
+            //var grid = new Grid
+            //{
+            //    RowSpacing = 20,
+            //    ColumnSpacing = 40
+            //};
+            //var label = new Label { Text = "Label 1" };
+            //grid.Children.Add(label, 0, 0);    // Label, row, column
+
+            //// Column and Row spans
+            //Grid.SetRowSpan(label, 2);
+            //Grid.SetColumnSpan(label, 2);
+
+            //// Row and column definitions
+            //grid.RowDefinitions.Add(new RowDefinition
+            //{
+            //    Height = new GridLength(100, GridUnitType.Absolute)
+            //});
+
+            //grid.RowDefinitions.Add(new RowDefinition
+            //{
+            //    Height = new GridLength(2, GridUnitType.Star)   // Makes height proportional
+            //});
+
+            //grid.RowDefinitions.Add(new RowDefinition
+            //{
+            //    Height = new GridLength(1, GridUnitType.Auto)
+            //});
+
+        }
 	}
 }
