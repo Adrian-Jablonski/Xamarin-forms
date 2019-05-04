@@ -1,0 +1,13 @@
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.deps.json
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.dll
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.pdb
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.csprojAssemblyReference.cache
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.AssemblyInfoInputs.cache
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.AssemblyInfo.cs
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\XamlC.stamp
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.dll
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.pdb
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\GreetPage.xaml.g.cs

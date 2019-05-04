@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.GreetPage">    <!--Establishes link between xaml file and codebehind file-->
+    <!--Created by going right clicking HelloWorld -> Add -> New Item -> Xamarin.Forms -> Content Page-->
+    <!--Then remove ContentPage.Content and StackLayout--> 
+    <Button HorizontalOptions="Center" VerticalOptions="Center" Text="Click Me" Clicked="Button_Clicked">
+
+    </Button>
+</ContentPage>
