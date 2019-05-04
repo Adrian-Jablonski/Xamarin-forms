@@ -17,7 +17,7 @@ namespace HelloWorld
 		{
 			InitializeComponent ();
 
-            slider.Value = .5;  // Sets initial slider value to .5
+            slider.Value = .5;  // Sets initial slider value to .5 
 
             //Content = new Label
             //{
@@ -33,10 +33,11 @@ namespace HelloWorld
         //    DisplayAlert("Title", "Hello World", "OK");
         //}
 
-        private void Slider_ValueChanged(object sender, ValueChangedEventArgs e)
-        {
-            labelId.Text = String.Format("Value is {0:F2}", e.NewValue);    // Sets the text of field with an ID (x:Name) of labelId. F2 sets number to 2 decimal spaces
-        }
+        // // **** Replaced by data binding in xaml file ****
+        //private void Slider_ValueChanged(object sender, ValueChangedEventArgs e)
+        //{
+        //    labelId.Text = String.Format("Value is {0:F2}", e.NewValue);    // Sets the text of field with an ID (x:Name) of labelId. F2 sets number to 2 decimal spaces
+        //}
 
     }
 }

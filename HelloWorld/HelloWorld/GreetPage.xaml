@@ -8,8 +8,18 @@
     <!--<Button HorizontalOptions="Center" VerticalOptions="Center" Text="Click Me" Clicked="Button_Clicked"></Button>-->
 
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Label Text="Hello World" x:Name="labelId"></Label>
-        <Slider ValueChanged="Slider_ValueChanged" x:Name="slider"></Slider>
+        <!--<Label Text="Hello World" x:Name="labelId"></Label>
+        <Slider ValueChanged="Slider_ValueChanged" x:Name="slider"></Slider>-->
+
+        <!--Using data binding-->
+        <Label BindingContext="{x:Reference slider}"
+            Text="{Binding Path=Value, 
+            StringFormat='Value is {0:F2}'}" 
+               
+            Opacity="{Binding Path=Value}"
+          x:Name="labelId"></Label>
+        <!--{ ... } Tell xaml that we are using a markup extension instead of a string literal-->
+        <Slider x:Name="slider"></Slider> 
     </StackLayout>
    
 
