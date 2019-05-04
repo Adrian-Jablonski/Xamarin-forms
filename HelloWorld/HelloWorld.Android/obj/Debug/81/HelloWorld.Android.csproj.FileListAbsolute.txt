@@ -102,4 +102,6 @@ D:\C#\Xamarin-forms\HelloWorld\HelloWorld.Android\obj\Debug\81\android\assets\Sy
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.dll
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld.Android\bin\Debug\HelloWorld.dll.mdb
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld.Android\obj\Debug\81\linksrc\HelloWorld.dll.mdb

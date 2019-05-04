@@ -11,3 +11,4 @@ D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\XamlC.stamp
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.dll
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.pdb
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\GreetPage.xaml.g.cs
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\StackPage.xaml.g.cs
