@@ -4,7 +4,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.StackPage">
-    <StackLayout BackgroundColor="Yellow"
+    <!--<StackLayout BackgroundColor="Yellow"
                  Orientation="Horizontal"
                  Padding="40"
                  Spacing="20"
@@ -18,5 +18,5 @@
         </StackLayout>
         <Label Text="Label 2"  BackgroundColor="Silver"></Label>
         <Label Text="Label 3"  BackgroundColor="Silver"></Label>
-    </StackLayout>
+    </StackLayout>-->
 </ContentPage>
