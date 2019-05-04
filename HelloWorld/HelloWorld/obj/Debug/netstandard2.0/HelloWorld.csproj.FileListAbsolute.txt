@@ -14,3 +14,4 @@ D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\GreetPage.xam
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\StackPage.xaml.g.cs
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\GridPage.xaml.g.cs
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\AbsolutePage.xaml.g.cs
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\RelativePage.xaml.g.cs

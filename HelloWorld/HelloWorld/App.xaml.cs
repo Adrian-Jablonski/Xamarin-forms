@@ -11,7 +11,7 @@ namespace HelloWorld
         {
             InitializeComponent();
 
-            MainPage = new AbsolutePage();      // Sets start Page
+            MainPage = new RelativePage();      // Sets start Page
         }
 
         protected override void OnStart()

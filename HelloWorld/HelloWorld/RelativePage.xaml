@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.RelativePage"
+             Padding="0, 20, 0, 0">
+    <RelativeLayout>
+        <!--Factor is the percentage of the constraint to parent-->
+        <BoxView Color="Aqua" x:Name="banner"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Width,
+            Factor=1}"
+                 
+                 RelativeLayout.HeightConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Height, 
+            Factor=0.3}"
+                 >
+        </BoxView>
+        <!-- Relative to view will place item based on position of the item referenced in Element Name. Constant is amount of units the item will be away from referenced Element and could be negative -->
+        <BoxView Color="Silver"
+                 RelativeLayout.YConstraint="{ConstraintExpression
+            Type=RelativeToView, 
+            ElementName=banner,
+            Property=Height,
+            Factor=1,
+            Constant=20}
+           "></BoxView>
+    </RelativeLayout>
+</ContentPage>
