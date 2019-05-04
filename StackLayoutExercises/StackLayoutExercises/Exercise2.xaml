@@ -43,7 +43,8 @@
                    FontSize="18">
             </Label>
             <Label Text="This is a shot yesterday in Skanor, Sweden, when driving home, from a couple of days of work in Denmark"
-                   FontSize="18">
+                   FontSize="18"
+                   >
                 
             </Label>
         </StackLayout>
