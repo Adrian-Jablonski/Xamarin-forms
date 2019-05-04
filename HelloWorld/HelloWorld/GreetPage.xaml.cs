@@ -19,6 +19,10 @@ namespace HelloWorld
 
             slider.Value = .5;  // Sets initial slider value to .5 
 
+            if (Device.RuntimePlatform == Device.iOS) { // Checks device type
+                Padding = new Thickness(0, 20, 0, 0);   // iOS always needs to have 20px added to top of screen or it will overlap with top bar
+            }
+
             //Content = new Label
             //{
             //    HorizontalOptions = LayoutOptions.Center,
