@@ -1,7 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- x:Class Establishes link between xaml file and codebehind file-->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HelloWorld.GreetPage">    <!--Establishes link between xaml file and codebehind file-->
+             x:Class="HelloWorld.GreetPage"
+             >
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+            iOS="0, 20, 0, 0">
+        </OnPlatform>
+    </ContentPage.Padding>
     <!--Created by going right clicking HelloWorld -> Add -> New Item -> Xamarin.Forms -> Content Page-->
     <!--Then remove ContentPage.Content-->
 
