@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PhotoGalleryExercise"
+             x:Class="PhotoGalleryExercise.MainPage"
+             BackgroundColor="Black">
+
+    <RelativeLayout 
+        >
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     RelativeLayout.WidthConstraint="{ConstraintExpression 
+            Type=RelativeToParent,
+            Property=Width}"
+                    
+                     RelativeLayout.HeightConstraint="{ConstraintExpression 
+            Type=RelativeToParent,
+            Property=Height}"
+                    >
+            <Image Aspect="AspectFit" x:Name="galleryImage"></Image>
+        </StackLayout>
+        
+        <Grid Padding="25, 0, 25, 0"
+               RelativeLayout.WidthConstraint="{ConstraintExpression 
+        Type=RelativeToParent,
+        Property=Width,
+        Factor=1}"
+                    RelativeLayout.YConstraint="{ConstraintExpression
+            Type=RelativeToParent,
+            Property=Height,
+            Factor=.05}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  Width ="70"></ColumnDefinition>
+                <ColumnDefinition  Width ="*"></ColumnDefinition>
+                <ColumnDefinition  Width ="70"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Row="0" Grid.Column="0" 
+                    Clicked="PreviousImage"
+                    BackgroundColor="Black">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource"
+                                iOS="left.png"
+                                Android="left.png"></OnPlatform>
+                </Button.Image>
+            </Button>
+            <ActivityIndicator Grid.Row="0" Grid.Column="1" 
+                               IsRunning="{Binding Source={x:Reference galleryImage}, Path=IsLoading}"
+                               Color="White">
+            </ActivityIndicator>
+            <Button Grid.Row="0" Grid.Column="2"
+                    HorizontalOptions="End"
+                    Clicked="NextImage"
+                    BackgroundColor="Black">
+                <Button.Image>
+                    <OnPlatform x:TypeArguments="FileImageSource"
+                                iOS="right.png"
+                                Android="right.png"></OnPlatform>
+                </Button.Image>
+            </Button>
+        </Grid>
+
+    </RelativeLayout>
+
+</ContentPage>
