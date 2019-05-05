@@ -16,3 +16,4 @@ D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\GridPage.xaml
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\AbsolutePage.xaml.g.cs
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\RelativePage.xaml.g.cs
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\ImagePage.xaml.g.cs
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\PlatformSpecificImages.xaml.g.cs

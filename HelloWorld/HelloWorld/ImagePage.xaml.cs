@@ -26,8 +26,8 @@ namespace HelloWorld
             //image.Source = imageSource;
             
 
-            // **** Before adding a local image. Need to right click image -> Click properties -> Change build action to embedded resource
-            image.Source = ImageSource.FromResource("HelloWorld.Images.background.PNG");
+            // // **** Before adding a local image. Need to right click image -> Click properties -> Change build action to embedded resource
+            // image.Source = ImageSource.FromResource("HelloWorld.Images.background.PNG");
 
 		}
 	}
