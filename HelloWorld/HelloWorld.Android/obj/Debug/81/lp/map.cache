@@ -1,6 +1,7 @@
-HelloWorld
-System.Runtime
 FormsViewGroup
+HelloWorld
+ImageCircle.Forms.Plugin
+System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime

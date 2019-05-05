@@ -1,6 +1,7 @@
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld.Android\obj\Debug\81\android\assets\HelloWorld.Android.dll
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld.Android\obj\Debug\81\android\assets\HelloWorld.dll
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld.Android\obj\Debug\81\android\assets\ImageCircle.Forms.Plugin.dll
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld.Android\obj\Debug\81\android\assets\Java.Interop.dll
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld.Android\obj\Debug\81\android\assets\Mono.Android.dll
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld.Android\obj\Debug\81\android\assets\mscorlib.dll

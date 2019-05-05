@@ -11,7 +11,7 @@ namespace HelloWorld
         {
             InitializeComponent();
 
-            MainPage = new PlatformSpecificImages();      // Sets start Page
+            MainPage = new RoundedImages();      // Sets start Page
         }
 
         protected override void OnStart()

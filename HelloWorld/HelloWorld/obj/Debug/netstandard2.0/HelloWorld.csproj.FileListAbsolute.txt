@@ -7,7 +7,6 @@ D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\MainPage.xaml
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.csproj.CoreCompileInputs.cache
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.AssemblyInfoInputs.cache
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.AssemblyInfo.cs
-D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\XamlC.stamp
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.dll
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.pdb
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\GreetPage.xaml.g.cs
@@ -17,3 +16,5 @@ D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\AbsolutePage.
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\RelativePage.xaml.g.cs
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\ImagePage.xaml.g.cs
 D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\PlatformSpecificImages.xaml.g.cs
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\RoundedImages.xaml.g.cs
+D:\C#\Xamarin-forms\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\XamlC.stamp
