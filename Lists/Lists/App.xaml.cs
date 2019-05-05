@@ -11,7 +11,7 @@ namespace Lists
         {
             InitializeComponent();
 
-            MainPage = new ContextActions();
+            MainPage = new PullToRefresh();
         }
 
         protected override void OnStart()
