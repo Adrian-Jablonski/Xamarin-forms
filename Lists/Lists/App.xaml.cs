@@ -11,7 +11,7 @@ namespace Lists
         {
             InitializeComponent();
 
-            MainPage = new GroupedList();
+            MainPage = new ListSelections();
         }
 
         protected override void OnStart()
