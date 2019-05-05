@@ -2,13 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.ImagePage">
-    <AbsoluteLayout>
-        <!-- Image loader -->
+
+    <!-- Image with image loader example -->
+    <!--<AbsoluteLayout>
         <ActivityIndicator IsRunning="{Binding Source={x:Reference image}, Path=IsLoading}" 
                            Color="Blue"
               AbsoluteLayout.LayoutBounds=".5, .5, 100, 100"
               AbsoluteLayout.LayoutFlags="PositionProportional"></ActivityIndicator>
         <Image Aspect="AspectFill" x:Name="image"
                AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"></Image>
-    </AbsoluteLayout>
+    </AbsoluteLayout>-->
+
+    <Image x:Name="image" Aspect="AspectFill"></Image>
+    
 </ContentPage>
