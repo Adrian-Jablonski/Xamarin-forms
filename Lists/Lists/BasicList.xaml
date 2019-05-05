@@ -2,11 +2,29 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Lists.BasicList">
-    <ListView x:Name="listView" SeparatorColor="Blue">
+    <ListView x:Name="listView" SeparatorColor="Blue" HasUnevenRows="True">
         <ListView.ItemTemplate>
             <DataTemplate>
+                <!-- **** Built in List Views ****
+                ** NOTE: ImageCell for Android has a bug where the image does not show. Need to create a custom view to show an image for Android **
+                -->
+                
                 <!--<TextCell Text="{Binding Name}" Detail="{Binding Status}" TextColor="Black" DetailColor="Blue"></TextCell>-->
-                <ImageCell Text="{Binding Name}" Detail="{Binding Status}" ImageSource="{Binding ImageUrl}"></ImageCell>
+                <!--<ImageCell Text="{Binding Name}" Detail="{Binding Status}" ImageSource="{Binding ImageUrl}"></ImageCell>-->
+                
+                
+                <!-- **** Custom List Views **** -->
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal"
+                                 Padding="5">
+                        <Image Source="{Binding ImageUrl}" Aspect="AspectFill" ></Image>
+                        <StackLayout HorizontalOptions="StartAndExpand">
+                            <Label Text="{Binding Name}"></Label>
+                            <Label Text="{Binding Status}" TextColor="Gray"></Label>
+                        </StackLayout>
+                        <Button Text="Follow"></Button>
+                    </StackLayout>
+                </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>
