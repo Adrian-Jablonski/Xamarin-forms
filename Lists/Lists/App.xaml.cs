@@ -11,7 +11,7 @@ namespace Lists
         {
             InitializeComponent();
 
-            MainPage = new ListSelections();
+            MainPage = new ContextActions();
         }
 
         protected override void OnStart()
