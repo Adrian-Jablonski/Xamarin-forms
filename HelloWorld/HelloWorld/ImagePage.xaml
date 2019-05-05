@@ -13,6 +13,7 @@
                AbsoluteLayout.LayoutBounds="0, 0, 1, 1" AbsoluteLayout.LayoutFlags="All"></Image>
     </AbsoluteLayout>-->
 
-    <Image x:Name="image" Aspect="AspectFill"></Image>
+    <!-- EmbeddedImage is a custom markup extension linked to MarkupExtensions/EmbeddedImages.cs file-->
+    <Image Source="{EmbeddedImage ResourceId=HelloWorld.Images.background.PNG}" x:Name="image" Aspect="AspectFill"></Image>
     
 </ContentPage>
