@@ -11,7 +11,7 @@ namespace Lists
         {
             InitializeComponent();
 
-            MainPage = new PullToRefresh();
+            MainPage = new SearchBar();
         }
 
         protected override void OnStart()
