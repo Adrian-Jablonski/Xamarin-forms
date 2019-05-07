@@ -46,6 +46,6 @@ Tutorial on Building Native Cross-platform Apps with C#
 - ContactsPage & ContactDetailPage - Simple Master Detail
     - Added ItemSelected Handler to ListView
     - Added await Navigation.PushAsync(new ContactDetailPage(contact)) to send contact data to contactDetailPage
-    - Added contact as a paremeter in ContactDetailPage constructor
+    - Added contact as an arguments in ContactDetailPage constructor
     - Set BindingContext to contact
     - Retreived contact data in .xaml file by using Binding
