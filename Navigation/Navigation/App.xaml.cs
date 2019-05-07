@@ -11,11 +11,13 @@ namespace Navigation
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new HierarchicalNavigation())
-            {
-                BarBackgroundColor = Color.Gray,
-                BarTextColor = Color.White
-            };
+            //MainPage = new NavigationPage(new HierarchicalNavigation())
+            //{
+            //    BarBackgroundColor = Color.Gray,
+            //    BarTextColor = Color.White
+            //};
+
+            MainPage = new NavigationPage (new ContactsPage());
         }
 
         protected override void OnStart()
