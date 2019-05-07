@@ -28,8 +28,16 @@ Tutorial on Building Native Cross-platform Apps with C#
     - Created ItemTapped and ItemSelected event listeners to handle selections
 - ContextActions
     - Created swipe left(iOS)/ hold(Android) list item event to show additional Call and Delete buttons
-    - Used ObservableCollection to update view anytime a new item is added or an existing item is deleted from contact list
+    - Used ObservableCollection to update view anytime a new item is added or an existing item is removed from contact list
 - PullToRefresh
     - Added pull to refresh event to update contacts on pull
 - SearchBar
     - Added search bar to filter through contact list on Text Change
+
+## Navigation
+### .xaml and Codebehind files in Navigation project
+- HierarchicalNavigation
+    - Added navigation to app by adding MainPage = new NavigationPage(new HierarchicalNavigation()) to App.xaml.cs
+    - Added Navigation.PushAsync to navigate to next page and Navigation.PopAsync to go to previous page
+    - Changed background color and text color of NavBar in App.xaml.cs file
+    - Overrode OnBackButtonPressed() to disable back button functionality

@@ -789,7 +789,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jablo\\.nuget\\packages\\": {}
+    "C:\\Users\\Developer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -797,12 +797,12 @@
       "projectUniqueName": "D:\\C#\\Xamarin-forms\\HelloWorld\\HelloWorld.iOS\\HelloWorld.iOS.csproj",
       "projectName": "HelloWorld.iOS",
       "projectPath": "D:\\C#\\Xamarin-forms\\HelloWorld\\HelloWorld.iOS\\HelloWorld.iOS.csproj",
-      "packagesPath": "C:\\Users\\Jablo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
       "outputPath": "D:\\C#\\Xamarin-forms\\HelloWorld\\HelloWorld.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Jablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

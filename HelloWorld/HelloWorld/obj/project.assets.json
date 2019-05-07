@@ -378,7 +378,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jablo\\.nuget\\packages\\": {},
+    "C:\\Users\\Developer\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -387,14 +387,14 @@
       "projectUniqueName": "D:\\C#\\Xamarin-forms\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
       "projectPath": "D:\\C#\\Xamarin-forms\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
-      "packagesPath": "C:\\Users\\Jablo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
       "outputPath": "D:\\C#\\Xamarin-forms\\HelloWorld\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
