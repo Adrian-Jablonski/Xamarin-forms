@@ -41,3 +41,5 @@ Tutorial on Building Native Cross-platform Apps with C#
     - Added Navigation.PushAsync to navigate to next page and Navigation.PopAsync to go to previous page
     - Changed background color and text color of NavBar in App.xaml.cs file
     - Overrode OnBackButtonPressed() to disable back button functionality
+    - Modal Pages
+        - Add Navigation.PushModalAsync and Navigation.PopModalAsync to navigate to modal pages

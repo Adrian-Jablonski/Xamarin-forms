@@ -19,7 +19,8 @@ namespace Navigation
 
         async private void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PopAsync();
+            // await Navigation.PopAsync();
+            await Navigation.PopModalAsync();
         }
 
         protected override bool OnBackButtonPressed()
